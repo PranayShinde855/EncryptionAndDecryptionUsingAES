@@ -61,6 +61,7 @@ namespace EncryptionAndDecryptionUsingAES
         static void Main(string[] args)
         {
             var key = "b14ca5898a4e4133bbce2ea2315a1916";
+            //var key = "ThisidSe(re@^RKeY";
             Console.WriteLine("Enter string to be encrypt.");
             var input = Convert.ToString(Console.ReadLine());
             var enp = Program.EncryptString(key, input);
